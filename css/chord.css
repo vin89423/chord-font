@@ -1,0 +1,164 @@
+@font-face {
+    font-family: 'ChordLight';
+    src: url('../fonts/Chord-Light.woff');
+    font-weight: normal;
+    font-style: normal;
+}
+[class*=chord-] {
+    display: inline-block;
+    font-size: 20px;
+    font-style: normal;
+    font-family: 'ChordLight';
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+[class*=chord-]:before {
+    font-size: inherit;
+}
+
+/* ------------ Normal ------------ */
+.chord-A:before {
+    content: "\f000";
+}
+.chord-B:before {
+    content: "\f001";
+}
+.chord-C:before {
+    content: "\f002";
+}
+.chord-D:before {
+    content: "\f003";
+}
+.chord-E:before {
+    content: "\f004";
+}
+.chord-F:before {
+    content: "\f005";
+}
+.chord-G:before {
+    content: "\f006";
+}
+/* ------------ 7 ------------ */
+.chord-A7:before {
+    content: "\f007";
+}
+.chord-B7:before {
+    content: "\f008";
+}
+.chord-C7:before {
+    content: "\f009";
+}
+.chord-D7:before {
+    content: "\f00A";
+}
+.chord-E7:before {
+    content: "\f00B";
+}
+.chord-F7:before {
+    content: "\f00C";
+}
+.chord-G7:before {
+    content: "\f00D";
+}
+/* ------------ Augmented ------------ */
+.chord-A-augmented:before, .chord-A-plus:before {
+    content: "\f00E";
+}
+.chord-B-augmented:before, .chord-B-plus:before {
+    content: "\f00F";
+}
+.chord-C-augmented:before, .chord-C-plus:before {
+    content: "\f010";
+}
+.chord-D-augmented:before, .chord-D-plus:before {
+    content: "\f011";
+}
+.chord-E-augmented:before, .chord-E-plus:before {
+    content: "\f012";
+}
+.chord-F-augmented:before, .chord-F-plus:before {
+    content: "\f013";
+}
+.chord-G-augmented:before, .chord-G-plus:before {
+    content: "\f014";
+}
+
+/* ------------ Sharp ------------ */
+.chord-A-sharp:before {
+    content: "\f015";
+}
+.chord-B-sharp:before {
+    content: "\f016";
+}
+.chord-C-sharp:before {
+    content: "\f017";
+}
+.chord-D-sharp:before {
+    content: "\f018";
+}
+.chord-E-sharp:before {
+    content: "\f019";
+}
+.chord-F-sharp:before {
+    content: "\f01A";
+}
+.chord-G-sharp:before {
+    content: "\f01B";
+}
+
+/* ------------ b ------------ */
+.chord-Ab:before {
+    content: "\f01C";
+}
+.chord-Bb:before {
+    content: "\f01D";
+}
+.chord-Db:before {
+    content: "\f01E";
+}
+.chord-Eb:before {
+    content: "\f01F";
+}
+.chord-Gb:before {
+    content: "\f020";
+}
+
+/* ------------ Others ------------ */
+.chord-dim:before {
+    content: "\f021";
+}
+.chord-dim7:before {
+    content: "\f022";
+}
+.chord-m:before {
+    content: "\f023";
+}
+.chord-m7:before {
+    content: "\f024";
+}
+.chord-m9:before {
+    content: "\f025";
+}
+.chord-M7:before {
+    content: "\f026";
+}
+.chord-sus:before {
+    content: "\f027";
+}
+.chord-sus2:before {
+    content: "\f028";
+}
+.chord-sus3:before {
+    content: "\f029";
+}
+.chord-sus4:before {
+    content: "\f02A";
+}
+.chord-sus7:before {
+    content: "\f02B";
+}
+.chord-maj7:before {
+    content: "\f02C";
+}
